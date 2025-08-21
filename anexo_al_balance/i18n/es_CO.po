@@ -1,0 +1,183 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* anexo_al_balance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-14 14:43+0000\n"
+"PO-Revision-Date: 2019-02-14 14:43+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid ": Partner Trial Balance"
+msgstr ": Anexo al Balance"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "<strong>Date from :</strong>"
+msgstr "<strong>Fecha desde:</strong>"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "<strong>Date to :</strong>"
+msgstr "<strong>Fecha hasta:</strong>"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "<strong>Display Account:</strong>"
+msgstr "<strong>Ver cuenta:</strong>"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "<strong>Target Moves:</strong>"
+msgstr "<strong>Movimientos señalados:</strong>"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "All Entries"
+msgstr "Todos los asientos"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "All Posted Entries"
+msgstr "Todos los asientos validados"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "All accounts"
+msgstr "Todas las cuentas"
+
+#. module: anexo_al_balance
+#: code:addons/anexo_al_balance/report/balance.py:102
+#, python-format
+msgid "Asociado en Elementos de diaro con id %s no ubicado en Asociados, indique un partner por defecto"
+msgstr "Asociado en Elementos de diaro con id %s no ubicado en Asociados, indique un partner por defecto"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "Balance"
+msgstr "Saldo pendiente"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "Balance Prev"
+msgstr "Balance Prev"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "Code"
+msgstr "Código"
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance_create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "Credit"
+msgstr "Haber"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "Debit"
+msgstr "Debe"
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance_default_unknown_partner
+msgid "Default Unknown Partner"
+msgstr "Tercero Por Defecto"
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance_display_name
+#: model:ir.model.fields,field_description:anexo_al_balance.field_report_anexo_al_balance_report_partner_trial_balance_display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: anexo_al_balance
+#: code:addons/anexo_al_balance/report/balance.py:167
+#, python-format
+msgid "Form content is missing, this report cannot be printed."
+msgstr "Form content is missing, this report cannot be printed."
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance_id
+#: model:ir.model.fields,field_description:anexo_al_balance.field_report_anexo_al_balance_report_partner_trial_balance_id
+msgid "ID"
+msgstr "ID"
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance_journal_ids
+msgid "Journals"
+msgstr "Diarios"
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance___last_update
+#: model:ir.model.fields,field_description:anexo_al_balance.field_report_anexo_al_balance_report_partner_trial_balance___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: anexo_al_balance
+#: model:ir.model.fields,field_description:anexo_al_balance.field_anexo_al_balance_report_partner_trial_balance_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: anexo_al_balance
+#: model:ir.actions.act_window,name:anexo_al_balance.action_account_balance_menu
+#: model:ir.ui.menu,name:anexo_al_balance.menu_general_Balance_report
+msgid "Partner Trial Balance"
+msgstr "Anexo al Balance"
+
+#. module: anexo_al_balance
+#: model:ir.model,name:anexo_al_balance.model_anexo_al_balance_report_partner_trial_balance
+msgid "Partner Trial Balance Report"
+msgstr "Reporte Anexos al Balance"
+
+#. module: anexo_al_balance
+#: model:ir.actions.report.xml,name:anexo_al_balance.action_report_partner_trial_balance
+msgid "Report Trial Balance"
+msgstr "Report Trial Balance"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "With balance not equal to zero"
+msgstr "Con saldo distinto a 0"
+
+#. module: anexo_al_balance
+#: model:ir.ui.view,arch_db:anexo_al_balance.report_partner_trial_balance
+msgid "With movements"
+msgstr "Con movimientos"
+
+#. module: anexo_al_balance
+#: model:ir.model,name:anexo_al_balance.model_report_anexo_al_balance_report_partner_trial_balance
+msgid "report.anexo_al_balance.report_partner_trial_balance"
+msgstr "report.anexo_al_balance.report_partner_trial_balance"
+
+#. module: anexo_al_balance
+#: model:ir.model,name:anexo_al_balance.model_report_anexo_al_balance_report_partner_trialbalance
+msgid "report.anexo_al_balance.report_partner_trialbalance"
+msgstr "report.anexo_al_balance.report_partner_trialbalance"
+

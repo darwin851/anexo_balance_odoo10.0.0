@@ -1,0 +1,59 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="anexo_al_balance.list">
+      <field name="name">anexo_al_balance list</field>
+      <field name="model">anexo_al_balance.anexo_al_balance</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="anexo_al_balance.action_window">
+      <field name="name">anexo_al_balance window</field>
+      <field name="res_model">anexo_al_balance.anexo_al_balance</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="anexo_al_balance.action_server">
+      <field name="name">anexo_al_balance server</field>
+      <field name="model_id" ref="model_anexo_al_balance_anexo_al_balance"/>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="anexo_al_balance" id="anexo_al_balance.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="anexo_al_balance.menu_1" parent="anexo_al_balance.menu_root"/>
+    <menuitem name="Menu 2" id="anexo_al_balance.menu_2" parent="anexo_al_balance.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="anexo_al_balance.menu_1_list" parent="anexo_al_balance.menu_1"
+              action="anexo_al_balance.action_window"/>
+    <menuitem name="Server to list" id="anexo_al_balance" parent="anexo_al_balance.menu_2"
+              action="anexo_al_balance.action_server"/>
+    -->
+  </data>
+</odoo>
